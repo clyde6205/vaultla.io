@@ -1,0 +1,36 @@
+// DRAFT translation: needs review by a native speaker before launch (legal and pricing copy especially).
+import type { Messages } from "./en.ts";
+
+const m: Messages = {
+  "hero.title": "今天封存，{year}年开启。",
+  "hero.sub": "在您的设备上加密。由您决定何时开启。为世代留存。",
+  "cta.start": "创建您的第一个时间胶囊",
+  "cta.sales": "联系销售",
+  "value.encrypted": "文件在上传前就在您的浏览器中加密。我们保存的是我们无法读取的密文。",
+  "value.timelock": "可在指定日期、按年分阶段，或在停止签到时开启，并通过独立时钟校验。",
+  "value.archive": "存放于深度归档，旨在数十年内保持可读。",
+  "pricing.title": "简单定价，全球通用",
+  "plan.free": "免费",
+  "plan.premium": "高级版",
+  "plan.lifetime": "终身版",
+  "plan.enterprise": "企业版",
+  "price.month": "{price} / 月",
+  "price.year": "{price} / 年",
+  "price.once": "{price} 一次性",
+  "price.from": "{price} / 年起",
+  "feat.free": "1 GB · 固定日期胶囊",
+  "feat.premium": "50 GB · 所有开启方式 · 守护人",
+  "feat.enterprise": "白标 · SSO · 审计导出 · 数据驻留",
+  "promise.keep": "即使您停止付费，已封存的胶囊也绝不会被删除。",
+  "referral.title": "邀请好友，你们各得 {gb} GB。",
+  "share.opensIn": "{count, plural, other {还有 # 天开启}}",
+  "vault.count": "{count, plural, other {# 个胶囊}}",
+  "offline.title": "您已离线",
+  "offline.body": "您的胶囊安全且已加密。重新联网后即可封存、开启或签到。",
+  "error.generic": "出了点问题，请重试。",
+  "checkout.secure": "支持本地支付方式的安全结账",
+  "tax.note": "税费在结账时计算",
+  "nav.pricing": "定价",
+  "nav.signin": "登录",
+};
+export default m;

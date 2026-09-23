@@ -1,0 +1,36 @@
+// DRAFT translation: needs review by a native speaker before launch (legal and pricing copy especially).
+import type { Messages } from "./en.ts";
+
+const m: Messages = {
+  "hero.title": "Sele hoje. Abra em {year}.",
+  "hero.sub": "Criptografado no seu dispositivo. Abre quando você decidir. Guardado para gerações.",
+  "cta.start": "Crie sua primeira cápsula",
+  "cta.sales": "Falar com vendas",
+  "value.encrypted": "Os arquivos são trancados no seu navegador antes do envio. Guardamos dados criptografados que não conseguimos ler.",
+  "value.timelock": "Abre em uma data, em etapas anuais ou quando os check-ins param. Verificado por relógios independentes.",
+  "value.archive": "Guardado em arquivo profundo, feito para continuar legível por décadas.",
+  "pricing.title": "Preços simples, no mundo todo",
+  "plan.free": "Grátis",
+  "plan.premium": "Premium",
+  "plan.lifetime": "Vitalício",
+  "plan.enterprise": "Empresarial",
+  "price.month": "{price} / mês",
+  "price.year": "{price} / ano",
+  "price.once": "{price} pagamento único",
+  "price.from": "A partir de {price} / ano",
+  "feat.free": "1 GB · cápsulas com data fixa",
+  "feat.premium": "50 GB · todos os tipos de abertura · guardiões",
+  "feat.enterprise": "Marca própria · SSO · exportação de auditoria · residência de dados",
+  "promise.keep": "Se você parar de pagar, suas cápsulas seladas nunca são apagadas.",
+  "referral.title": "Convide um amigo. Vocês dois ganham {gb} GB.",
+  "share.opensIn": "{count, plural, one {Abre em # dia} other {Abre em # dias}}",
+  "vault.count": "{count, plural, one {# cápsula} other {# cápsulas}}",
+  "offline.title": "Você está offline",
+  "offline.body": "Suas cápsulas estão seguras e criptografadas. Reconecte para selar, abrir ou fazer check-in.",
+  "error.generic": "Algo deu errado. Tente novamente.",
+  "checkout.secure": "Pagamento seguro com métodos de pagamento locais",
+  "tax.note": "Os impostos são calculados no pagamento",
+  "nav.pricing": "Preços",
+  "nav.signin": "Entrar",
+};
+export default m;

@@ -1,0 +1,41 @@
+{
+  "enterprise_min_annual_usd_minor": 500000,
+  "plans": {
+    "lifetime": {
+      "AUD": 22900,
+      "BRL": 44900,
+      "CAD": 19900,
+      "EUR": 14900,
+      "GBP": 11900,
+      "INR": 599900,
+      "JPY": 21900,
+      "MXN": 249900,
+      "PHP": 449900,
+      "USD": 14900
+    },
+    "premium_monthly": {
+      "AUD": 749,
+      "BRL": 1490,
+      "CAD": 649,
+      "EUR": 499,
+      "GBP": 399,
+      "INR": 19900,
+      "JPY": 690,
+      "MXN": 7900,
+      "PHP": 14900,
+      "USD": 499
+    },
+    "premium_yearly": {
+      "AUD": 7499,
+      "BRL": 14900,
+      "CAD": 6499,
+      "EUR": 4999,
+      "GBP": 3999,
+      "INR": 199900,
+      "JPY": 6900,
+      "MXN": 79000,
+      "PHP": 149000,
+      "USD": 4999
+    }
+  }
+}

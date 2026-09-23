@@ -1,0 +1,36 @@
+// DRAFT translation: needs review by a native speaker before launch (legal and pricing copy especially).
+import type { Messages } from "./en.ts";
+
+const m: Messages = {
+  "hero.title": "Segel hari ini. Buka pada {year}.",
+  "hero.sub": "Terenkripsi di perangkat Anda. Terbuka saat Anda putuskan. Disimpan untuk generasi mendatang.",
+  "cta.start": "Buat kapsul pertama Anda",
+  "cta.sales": "Hubungi tim penjualan",
+  "value.encrypted": "File dikunci di browser Anda sebelum diunggah. Kami menyimpan data terenkripsi yang tidak dapat kami baca.",
+  "value.timelock": "Terbuka pada tanggal tertentu, bertahap setiap tahun, atau saat check-in berhenti. Diverifikasi dengan jam independen.",
+  "value.archive": "Disimpan di arsip dalam, dirancang tetap terbaca selama puluhan tahun.",
+  "pricing.title": "Harga sederhana, di seluruh dunia",
+  "plan.free": "Gratis",
+  "plan.premium": "Premium",
+  "plan.lifetime": "Seumur hidup",
+  "plan.enterprise": "Perusahaan",
+  "price.month": "{price} / bulan",
+  "price.year": "{price} / tahun",
+  "price.once": "{price} sekali bayar",
+  "price.from": "Mulai {price} / tahun",
+  "feat.free": "1 GB · kapsul bertanggal tetap",
+  "feat.premium": "50 GB · semua jenis pembukaan · wali",
+  "feat.enterprise": "White-label · SSO · ekspor audit · residensi data",
+  "promise.keep": "Jika Anda berhenti membayar, kapsul tersegel Anda tidak akan pernah dihapus.",
+  "referral.title": "Undang teman. Kalian berdua mendapat {gb} GB.",
+  "share.opensIn": "{count, plural, other {Terbuka dalam # hari}}",
+  "vault.count": "{count, plural, other {# kapsul}}",
+  "offline.title": "Anda sedang offline",
+  "offline.body": "Kapsul Anda aman dan terenkripsi. Sambungkan kembali untuk menyegel, membuka, atau check-in.",
+  "error.generic": "Terjadi kesalahan. Silakan coba lagi.",
+  "checkout.secure": "Pembayaran aman dengan metode pembayaran lokal",
+  "tax.note": "Pajak dihitung saat pembayaran",
+  "nav.pricing": "Harga",
+  "nav.signin": "Masuk",
+};
+export default m;

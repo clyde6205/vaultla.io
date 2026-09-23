@@ -1,0 +1,36 @@
+// DRAFT translation: needs review by a native speaker before launch (legal and pricing copy especially).
+import type { Messages } from "./en.ts";
+
+const m: Messages = {
+  "hero.title": "今日、封じる。{year}年に、開く。",
+  "hero.sub": "端末上で暗号化。開くタイミングはあなたが決めます。何世代先まで保管。",
+  "cta.start": "最初のカプセルを作成",
+  "cta.sales": "営業に問い合わせる",
+  "value.encrypted": "ファイルはアップロード前にブラウザ上で暗号化されます。当社が保管するのは、当社には読めない暗号化データです。",
+  "value.timelock": "指定した日付、年ごとの段階、または生存確認が途絶えたときに開きます。独立した時計で検証されます。",
+  "value.archive": "ディープアーカイブに保管され、何十年も読める状態を保つよう設計されています。",
+  "pricing.title": "世界共通のシンプルな料金",
+  "plan.free": "無料",
+  "plan.premium": "プレミアム",
+  "plan.lifetime": "買い切り",
+  "plan.enterprise": "エンタープライズ",
+  "price.month": "{price} / 月",
+  "price.year": "{price} / 年",
+  "price.once": "{price} 買い切り",
+  "price.from": "{price} / 年から",
+  "feat.free": "1 GB · 日付指定カプセル",
+  "feat.premium": "50 GB · すべての開封方法 · 見守り人",
+  "feat.enterprise": "ホワイトラベル · SSO · 監査ログ出力 · データ所在地の指定",
+  "promise.keep": "お支払いを止めても、封印したカプセルが削除されることはありません。",
+  "referral.title": "友だちを招待すると、2人とも {gb} GB もらえます。",
+  "share.opensIn": "{count, plural, other {あと # 日で開きます}}",
+  "vault.count": "{count, plural, other {# 個のカプセル}}",
+  "offline.title": "オフラインです",
+  "offline.body": "カプセルは安全に暗号化されています。封印・開封・生存確認をするには、再接続してください。",
+  "error.generic": "問題が発生しました。もう一度お試しください。",
+  "checkout.secure": "現地の決済方法に対応した安全なお支払い",
+  "tax.note": "税金はお支払い時に計算されます",
+  "nav.pricing": "料金",
+  "nav.signin": "ログイン",
+};
+export default m;

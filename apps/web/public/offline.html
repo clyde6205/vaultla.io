@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0a0b0d">
+<title>Vaultla.io</title>
+<style>
+  :root { color-scheme: dark; }
+  html, body { height: 100%; margin: 0; background: #0a0b0d; color: #e7e4dc;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { min-height: 100%; display: flex; flex-direction: column; justify-content: center; gap: 12px;
+    max-width: 36rem; margin: 0 auto; padding: 24px; box-sizing: border-box; }
+  h1 { margin: 0; font-size: 1.9rem; font-weight: 600; }
+  p { margin: 0; line-height: 1.6; color: #9a9ca3; }
+</style>
+</head>
+<body>
+<main><h1 id="t">You're offline</h1><p id="b">Your capsules are safe and encrypted. Reconnect to seal, open or check in.</p></main>
+<script>
+// Static so the service worker can cache it without redirects. Picks the visitor's language.
+var M = {"en": {"t": "You're offline", "b": "Your capsules are safe and encrypted. Reconnect to seal, open or check in."}, "es": {"t": "Sin conexión", "b": "Tus cápsulas están seguras y cifradas. Vuelve a conectarte para sellar, abrir o registrarte."}, "pt-BR": {"t": "Você está offline", "b": "Suas cápsulas estão seguras e criptografadas. Reconecte para selar, abrir ou fazer check-in."}, "fr": {"t": "Vous êtes hors ligne", "b": "Vos capsules sont en sécurité et chiffrées. Reconnectez-vous pour sceller, ouvrir ou confirmer votre présence."}, "de": {"t": "Sie sind offline", "b": "Ihre Kapseln sind sicher und verschlüsselt. Stellen Sie die Verbindung wieder her, um zu versiegeln, zu öffnen oder ein Lebenszeichen zu senden."}, "it": {"t": "Sei offline", "b": "Le tue capsule sono al sicuro e cifrate. Riconnettiti per sigillare, aprire o fare il check-in."}, "tr": {"t": "Çevrimdışısınız", "b": "Kapsülleriniz güvende ve şifreli. Mühürlemek, açmak veya yoklama bildirmek için yeniden bağlanın."}, "ru": {"t": "Нет подключения", "b": "Ваши капсулы в безопасности и зашифрованы. Подключитесь, чтобы запечатать, открыть капсулу или отметиться."}, "ar": {"t": "أنت غير متصل", "b": "كبسولاتك آمنة ومشفّرة. أعد الاتصال لتختم أو تفتح أو تسجّل حضورك."}, "hi": {"t": "आप ऑफ़लाइन हैं", "b": "आपके कैप्सूल सुरक्षित और एन्क्रिप्टेड हैं। सील करने, खोलने या चेक-इन करने के लिए फिर से कनेक्ट करें।"}, "id": {"t": "Anda sedang offline", "b": "Kapsul Anda aman dan terenkripsi. Sambungkan kembali untuk menyegel, membuka, atau check-in."}, "tl": {"t": "Offline ka", "b": "Ligtas at naka-encrypt ang iyong mga capsule. Kumonekta muli para mag-seal, magbukas, o mag-check-in."}, "vi": {"t": "Bạn đang ngoại tuyến", "b": "Các viên nang của bạn an toàn và đã được mã hóa. Hãy kết nối lại để niêm phong, mở hoặc điểm danh."}, "zh-CN": {"t": "您已离线", "b": "您的胶囊安全且已加密。重新联网后即可封存、开启或签到。"}, "ja": {"t": "オフラインです", "b": "カプセルは安全に暗号化されています。封印・開封・生存確認をするには、再接続してください。"}, "ko": {"t": "오프라인 상태입니다", "b": "캡슐은 안전하게 암호화되어 있습니다. 봉인, 열기, 체크인을 하려면 다시 연결하세요."}};
+var pref = (navigator.languages || [navigator.language || "en"]);
+function pick() {
+  for (var i = 0; i < pref.length; i++) {
+    var tag = pref[i], low = tag.toLowerCase(), base = low.split("-")[0];
+    if (M[tag]) return tag;
+    if (low === "pt" || low.indexOf("pt-") === 0) return "pt-BR";
+    if (low === "zh" || low.indexOf("zh-") === 0) return "zh-CN";
+    if (base === "fil") return "tl";
+    if (M[base]) return base;
+  }
+  return "en";
+}
+var k = pick(), m = M[k];
+document.documentElement.lang = k;
+document.documentElement.dir = k === "ar" ? "rtl" : "ltr";
+document.getElementById("t").textContent = m.t;
+document.getElementById("b").textContent = m.b;
+</script>
+</body>
+</html>

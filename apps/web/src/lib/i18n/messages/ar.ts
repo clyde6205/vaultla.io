@@ -1,0 +1,36 @@
+// DRAFT translation: needs review by a native speaker before launch (legal and pricing copy especially).
+import type { Messages } from "./en.ts";
+
+const m: Messages = {
+  "hero.title": "اختمها اليوم. افتحها في {year}.",
+  "hero.sub": "مشفّرة على جهازك. تُفتح حين تقرر أنت. محفوظة للأجيال.",
+  "cta.start": "أنشئ كبسولتك الأولى",
+  "cta.sales": "تواصل مع المبيعات",
+  "value.encrypted": "تُقفل الملفات في متصفحك قبل الرفع. نخزّن بيانات مشفّرة لا نستطيع قراءتها.",
+  "value.timelock": "تُفتح في تاريخ محدد، أو على مراحل سنوية، أو عند توقف تسجيلات الحضور. يتم التحقق بساعات مستقلة.",
+  "value.archive": "تُخزَّن في أرشيف عميق ومصممة لتبقى مقروءة لعقود.",
+  "pricing.title": "أسعار بسيطة في كل أنحاء العالم",
+  "plan.free": "مجاني",
+  "plan.premium": "بريميوم",
+  "plan.lifetime": "مدى الحياة",
+  "plan.enterprise": "للمؤسسات",
+  "price.month": "{price} / شهر",
+  "price.year": "{price} / سنة",
+  "price.once": "{price} دفعة واحدة",
+  "price.from": "ابتداءً من {price} / سنة",
+  "feat.free": "1 جيجابايت · كبسولات بتاريخ ثابت",
+  "feat.premium": "50 جيجابايت · جميع أنواع الفتح · الأوصياء",
+  "feat.enterprise": "علامة بيضاء · SSO · تصدير سجل التدقيق · إقامة البيانات",
+  "promise.keep": "حتى لو توقفت عن الدفع، لا تُحذف كبسولاتك المختومة أبدًا.",
+  "referral.title": "ادعُ صديقًا. تحصلان معًا على {gb} جيجابايت.",
+  "share.opensIn": "{count, plural, zero {تُفتح اليوم} one {تُفتح بعد يوم واحد} two {تُفتح بعد يومين} few {تُفتح بعد # أيام} many {تُفتح بعد # يومًا} other {تُفتح بعد # يوم}}",
+  "vault.count": "{count, plural, zero {لا توجد كبسولات} one {كبسولة واحدة} two {كبسولتان} few {# كبسولات} many {# كبسولة} other {# كبسولة}}",
+  "offline.title": "أنت غير متصل",
+  "offline.body": "كبسولاتك آمنة ومشفّرة. أعد الاتصال لتختم أو تفتح أو تسجّل حضورك.",
+  "error.generic": "حدث خطأ ما. يُرجى المحاولة مرة أخرى.",
+  "checkout.secure": "دفع آمن بوسائل الدفع المحلية",
+  "tax.note": "تُحتسب الضرائب عند الدفع",
+  "nav.pricing": "الأسعار",
+  "nav.signin": "تسجيل الدخول",
+};
+export default m;

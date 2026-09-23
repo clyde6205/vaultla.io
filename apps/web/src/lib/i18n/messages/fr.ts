@@ -1,0 +1,36 @@
+// DRAFT translation: needs review by a native speaker before launch (legal and pricing copy especially).
+import type { Messages } from "./en.ts";
+
+const m: Messages = {
+  "hero.title": "Scellez-le aujourd'hui. Ouvrez-le en {year}.",
+  "hero.sub": "Chiffré sur votre appareil. S'ouvre quand vous le décidez. Conservé pour les générations à venir.",
+  "cta.start": "Créer votre première capsule",
+  "cta.sales": "Contacter les ventes",
+  "value.encrypted": "Les fichiers sont verrouillés dans votre navigateur avant l'envoi. Nous stockons des données chiffrées que nous ne pouvons pas lire.",
+  "value.timelock": "S'ouvre à une date, par étapes annuelles ou quand les confirmations de présence cessent. Vérifié par des horloges indépendantes.",
+  "value.archive": "Stocké en archivage profond, conçu pour rester lisible pendant des décennies.",
+  "pricing.title": "Une tarification simple, partout dans le monde",
+  "plan.free": "Gratuit",
+  "plan.premium": "Premium",
+  "plan.lifetime": "À vie",
+  "plan.enterprise": "Entreprise",
+  "price.month": "{price} / mois",
+  "price.year": "{price} / an",
+  "price.once": "{price} paiement unique",
+  "price.from": "À partir de {price} / an",
+  "feat.free": "1 Go · capsules à date fixe",
+  "feat.premium": "50 Go · tous les types d'ouverture · gardiens",
+  "feat.enterprise": "Marque blanche · SSO · export d'audit · résidence des données",
+  "promise.keep": "Si vous cessez de payer, vos capsules scellées ne sont jamais supprimées.",
+  "referral.title": "Invitez un ami. Vous recevez tous les deux {gb} Go.",
+  "share.opensIn": "{count, plural, one {S'ouvre dans # jour} other {S'ouvre dans # jours}}",
+  "vault.count": "{count, plural, one {# capsule} other {# capsules}}",
+  "offline.title": "Vous êtes hors ligne",
+  "offline.body": "Vos capsules sont en sécurité et chiffrées. Reconnectez-vous pour sceller, ouvrir ou confirmer votre présence.",
+  "error.generic": "Une erreur s'est produite. Veuillez réessayer.",
+  "checkout.secure": "Paiement sécurisé avec moyens de paiement locaux",
+  "tax.note": "Les taxes sont calculées au paiement",
+  "nav.pricing": "Tarifs",
+  "nav.signin": "Se connecter",
+};
+export default m;

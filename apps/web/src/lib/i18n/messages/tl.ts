@@ -1,0 +1,36 @@
+// DRAFT translation: needs review by a native speaker before launch (legal and pricing copy especially).
+import type { Messages } from "./en.ts";
+
+const m: Messages = {
+  "hero.title": "I-seal ngayon. Buksan sa {year}.",
+  "hero.sub": "Naka-encrypt sa iyong device. Bumubukas kapag ikaw ang nagpasya. Iniingatan para sa mga susunod na henerasyon.",
+  "cta.start": "Gawin ang iyong unang capsule",
+  "cta.sales": "Makipag-usap sa sales",
+  "value.encrypted": "Nala-lock ang mga file sa iyong browser bago i-upload. Nag-iimbak kami ng naka-encrypt na datos na hindi namin mababasa.",
+  "value.timelock": "Bumubukas sa takdang petsa, sa taunang yugto, o kapag huminto ang mga check-in. Beripikado gamit ang mga independiyenteng orasan.",
+  "value.archive": "Nakaimbak sa deep archive, dinisenyo para manatiling nababasa sa loob ng mga dekada.",
+  "pricing.title": "Simpleng presyo, sa buong mundo",
+  "plan.free": "Libre",
+  "plan.premium": "Premium",
+  "plan.lifetime": "Panghabambuhay",
+  "plan.enterprise": "Enterprise",
+  "price.month": "{price} / buwan",
+  "price.year": "{price} / taon",
+  "price.once": "{price} minsanan",
+  "price.from": "Simula sa {price} / taon",
+  "feat.free": "1 GB · mga capsule na may takdang petsa",
+  "feat.premium": "50 GB · lahat ng uri ng pagbubukas · mga tagapangalaga",
+  "feat.enterprise": "White-label · SSO · audit export · data residency",
+  "promise.keep": "Kahit tumigil ka sa pagbabayad, hindi kailanman made-delete ang iyong mga naka-seal na capsule.",
+  "referral.title": "Mag-imbita ng kaibigan. Pareho kayong makakakuha ng {gb} GB.",
+  "share.opensIn": "{count, plural, one {Bubukas sa loob ng # araw} other {Bubukas sa loob ng # araw}}",
+  "vault.count": "{count, plural, one {# capsule} other {# capsule}}",
+  "offline.title": "Offline ka",
+  "offline.body": "Ligtas at naka-encrypt ang iyong mga capsule. Kumonekta muli para mag-seal, magbukas, o mag-check-in.",
+  "error.generic": "May nangyaring mali. Pakisubukan muli.",
+  "checkout.secure": "Ligtas na checkout gamit ang mga lokal na paraan ng pagbabayad",
+  "tax.note": "Kinakalkula ang mga buwis sa checkout",
+  "nav.pricing": "Presyo",
+  "nav.signin": "Mag-sign in",
+};
+export default m;

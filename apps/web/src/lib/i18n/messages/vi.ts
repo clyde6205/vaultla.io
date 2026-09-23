@@ -1,0 +1,36 @@
+// DRAFT translation: needs review by a native speaker before launch (legal and pricing copy especially).
+import type { Messages } from "./en.ts";
+
+const m: Messages = {
+  "hero.title": "Niêm phong hôm nay. Mở vào năm {year}.",
+  "hero.sub": "Được mã hóa trên thiết bị của bạn. Mở khi bạn quyết định. Lưu giữ cho nhiều thế hệ.",
+  "cta.start": "Tạo viên nang đầu tiên của bạn",
+  "cta.sales": "Liên hệ bộ phận kinh doanh",
+  "value.encrypted": "Tệp được khóa ngay trong trình duyệt của bạn trước khi tải lên. Chúng tôi lưu dữ liệu đã mã hóa mà chúng tôi không thể đọc.",
+  "value.timelock": "Mở vào một ngày cụ thể, theo từng giai đoạn hằng năm, hoặc khi việc điểm danh dừng lại. Được xác minh bằng các đồng hồ độc lập.",
+  "value.archive": "Lưu trong kho lưu trữ sâu, được thiết kế để vẫn đọc được trong nhiều thập kỷ.",
+  "pricing.title": "Bảng giá đơn giản trên toàn thế giới",
+  "plan.free": "Miễn phí",
+  "plan.premium": "Premium",
+  "plan.lifetime": "Trọn đời",
+  "plan.enterprise": "Doanh nghiệp",
+  "price.month": "{price} / tháng",
+  "price.year": "{price} / năm",
+  "price.once": "{price} một lần",
+  "price.from": "Từ {price} / năm",
+  "feat.free": "1 GB · viên nang mở theo ngày cố định",
+  "feat.premium": "50 GB · mọi kiểu mở khóa · người giám hộ",
+  "feat.enterprise": "White-label · SSO · xuất nhật ký kiểm toán · lưu trú dữ liệu",
+  "promise.keep": "Nếu bạn ngừng thanh toán, các viên nang đã niêm phong của bạn sẽ không bao giờ bị xóa.",
+  "referral.title": "Mời một người bạn. Cả hai cùng nhận {gb} GB.",
+  "share.opensIn": "{count, plural, other {Mở sau # ngày}}",
+  "vault.count": "{count, plural, other {# viên nang}}",
+  "offline.title": "Bạn đang ngoại tuyến",
+  "offline.body": "Các viên nang của bạn an toàn và đã được mã hóa. Hãy kết nối lại để niêm phong, mở hoặc điểm danh.",
+  "error.generic": "Đã xảy ra lỗi. Vui lòng thử lại.",
+  "checkout.secure": "Thanh toán an toàn với phương thức thanh toán địa phương",
+  "tax.note": "Thuế được tính khi thanh toán",
+  "nav.pricing": "Bảng giá",
+  "nav.signin": "Đăng nhập",
+};
+export default m;

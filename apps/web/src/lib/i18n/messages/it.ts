@@ -1,0 +1,36 @@
+// DRAFT translation: needs review by a native speaker before launch (legal and pricing copy especially).
+import type { Messages } from "./en.ts";
+
+const m: Messages = {
+  "hero.title": "Sigillalo oggi. Aprilo nel {year}.",
+  "hero.sub": "Cifrato sul tuo dispositivo. Si apre quando decidi tu. Conservato per le generazioni.",
+  "cta.start": "Crea la tua prima capsula",
+  "cta.sales": "Contatta le vendite",
+  "value.encrypted": "I file vengono cifrati nel tuo browser prima del caricamento. Conserviamo dati cifrati che non possiamo leggere.",
+  "value.timelock": "Si apre a una data, per tappe annuali o quando i check-in si interrompono. Verificato con orologi indipendenti.",
+  "value.archive": "Conservato in archivio profondo, pensato per restare leggibile per decenni.",
+  "pricing.title": "Prezzi semplici, in tutto il mondo",
+  "plan.free": "Gratis",
+  "plan.premium": "Premium",
+  "plan.lifetime": "A vita",
+  "plan.enterprise": "Azienda",
+  "price.month": "{price} / mese",
+  "price.year": "{price} / anno",
+  "price.once": "{price} una tantum",
+  "price.from": "Da {price} / anno",
+  "feat.free": "1 GB · capsule a data fissa",
+  "feat.premium": "50 GB · tutti i tipi di apertura · custodi",
+  "feat.enterprise": "White label · SSO · esportazione audit · residenza dei dati",
+  "promise.keep": "Se smetti di pagare, le tue capsule sigillate non vengono mai eliminate.",
+  "referral.title": "Invita un amico. Ricevete entrambi {gb} GB.",
+  "share.opensIn": "{count, plural, one {Si apre tra # giorno} other {Si apre tra # giorni}}",
+  "vault.count": "{count, plural, one {# capsula} other {# capsule}}",
+  "offline.title": "Sei offline",
+  "offline.body": "Le tue capsule sono al sicuro e cifrate. Riconnettiti per sigillare, aprire o fare il check-in.",
+  "error.generic": "Qualcosa è andato storto. Riprova.",
+  "checkout.secure": "Pagamento sicuro con metodi di pagamento locali",
+  "tax.note": "Le imposte sono calcolate al pagamento",
+  "nav.pricing": "Prezzi",
+  "nav.signin": "Accedi",
+};
+export default m;

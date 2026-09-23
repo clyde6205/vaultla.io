@@ -1,0 +1,36 @@
+// DRAFT translation: needs review by a native speaker before launch (legal and pricing copy especially).
+import type { Messages } from "./en.ts";
+
+const m: Messages = {
+  "hero.title": "Heute versiegeln. In {year} öffnen.",
+  "hero.sub": "Auf Ihrem Gerät verschlüsselt. Öffnet sich, wann Sie es bestimmen. Für Generationen bewahrt.",
+  "cta.start": "Erste Kapsel erstellen",
+  "cta.sales": "Vertrieb kontaktieren",
+  "value.encrypted": "Dateien werden in Ihrem Browser verschlüsselt, bevor sie hochgeladen werden. Wir speichern Daten, die wir nicht lesen können.",
+  "value.timelock": "Öffnet an einem Datum, in jährlichen Stufen oder wenn Lebenszeichen ausbleiben. Geprüft anhand unabhängiger Uhren.",
+  "value.archive": "Im Tiefenarchiv gespeichert, gebaut, um jahrzehntelang lesbar zu bleiben.",
+  "pricing.title": "Einfache Preise, weltweit",
+  "plan.free": "Kostenlos",
+  "plan.premium": "Premium",
+  "plan.lifetime": "Lebenslang",
+  "plan.enterprise": "Enterprise",
+  "price.month": "{price} / Monat",
+  "price.year": "{price} / Jahr",
+  "price.once": "{price} einmalig",
+  "price.from": "Ab {price} / Jahr",
+  "feat.free": "1 GB · Kapseln mit festem Datum",
+  "feat.premium": "50 GB · alle Öffnungsarten · Vertrauenspersonen",
+  "feat.enterprise": "White-Label · SSO · Audit-Export · Datenresidenz",
+  "promise.keep": "Auch wenn Sie nicht mehr zahlen, werden Ihre versiegelten Kapseln nie gelöscht.",
+  "referral.title": "Laden Sie einen Freund ein. Sie beide erhalten {gb} GB.",
+  "share.opensIn": "{count, plural, one {Öffnet in # Tag} other {Öffnet in # Tagen}}",
+  "vault.count": "{count, plural, one {# Kapsel} other {# Kapseln}}",
+  "offline.title": "Sie sind offline",
+  "offline.body": "Ihre Kapseln sind sicher und verschlüsselt. Stellen Sie die Verbindung wieder her, um zu versiegeln, zu öffnen oder ein Lebenszeichen zu senden.",
+  "error.generic": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+  "checkout.secure": "Sichere Zahlung mit lokalen Zahlungsmethoden",
+  "tax.note": "Steuern werden an der Kasse berechnet",
+  "nav.pricing": "Preise",
+  "nav.signin": "Anmelden",
+};
+export default m;

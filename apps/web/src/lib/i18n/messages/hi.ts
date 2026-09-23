@@ -1,0 +1,36 @@
+// DRAFT translation: needs review by a native speaker before launch (legal and pricing copy especially).
+import type { Messages } from "./en.ts";
+
+const m: Messages = {
+  "hero.title": "आज ही सील करें। {year} में खोलें।",
+  "hero.sub": "आपके डिवाइस पर एन्क्रिप्टेड। आप जब चाहें तब खुलता है। पीढ़ियों के लिए सुरक्षित।",
+  "cta.start": "अपना पहला कैप्सूल बनाएँ",
+  "cta.sales": "सेल्स टीम से बात करें",
+  "value.encrypted": "अपलोड से पहले फ़ाइलें आपके ब्राउज़र में ही लॉक हो जाती हैं। हम ऐसा एन्क्रिप्टेड डेटा रखते हैं जिसे हम पढ़ नहीं सकते।",
+  "value.timelock": "तय तारीख पर, सालाना चरणों में, या चेक-इन बंद होने पर खुलता है। स्वतंत्र घड़ियों से सत्यापित।",
+  "value.archive": "डीप आर्काइव में सहेजा जाता है, दशकों तक पढ़ने योग्य रहने के लिए बनाया गया।",
+  "pricing.title": "पूरी दुनिया के लिए सरल कीमतें",
+  "plan.free": "मुफ़्त",
+  "plan.premium": "प्रीमियम",
+  "plan.lifetime": "आजीवन",
+  "plan.enterprise": "एंटरप्राइज़",
+  "price.month": "{price} / माह",
+  "price.year": "{price} / वर्ष",
+  "price.once": "{price} एकमुश्त",
+  "price.from": "{price} / वर्ष से शुरू",
+  "feat.free": "1 GB · तय तारीख वाले कैप्सूल",
+  "feat.premium": "50 GB · सभी अनलॉक प्रकार · संरक्षक",
+  "feat.enterprise": "व्हाइट-लेबल · SSO · ऑडिट एक्सपोर्ट · डेटा रेज़िडेंसी",
+  "promise.keep": "अगर आप भुगतान बंद भी कर दें, तब भी आपके सील किए गए कैप्सूल कभी नहीं हटाए जाते।",
+  "referral.title": "किसी दोस्त को बुलाएँ। आप दोनों को {gb} GB मिलेगा।",
+  "share.opensIn": "{count, plural, one {# दिन में खुलेगा} other {# दिनों में खुलेगा}}",
+  "vault.count": "{count, plural, one {# कैप्सूल} other {# कैप्सूल}}",
+  "offline.title": "आप ऑफ़लाइन हैं",
+  "offline.body": "आपके कैप्सूल सुरक्षित और एन्क्रिप्टेड हैं। सील करने, खोलने या चेक-इन करने के लिए फिर से कनेक्ट करें।",
+  "error.generic": "कुछ गड़बड़ हो गई। कृपया फिर से कोशिश करें।",
+  "checkout.secure": "स्थानीय भुगतान तरीकों के साथ सुरक्षित चेकआउट",
+  "tax.note": "कर चेकआउट पर जोड़े जाते हैं",
+  "nav.pricing": "कीमतें",
+  "nav.signin": "साइन इन",
+};
+export default m;

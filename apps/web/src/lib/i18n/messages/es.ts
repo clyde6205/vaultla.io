@@ -1,0 +1,36 @@
+// DRAFT translation: needs review by a native speaker before launch (legal and pricing copy especially).
+import type { Messages } from "./en.ts";
+
+const m: Messages = {
+  "hero.title": "Séllalo hoy. Ábrelo en {year}.",
+  "hero.sub": "Cifrado en tu dispositivo. Se abre cuando tú decides. Conservado para generaciones.",
+  "cta.start": "Crea tu primera cápsula",
+  "cta.sales": "Hablar con ventas",
+  "value.encrypted": "Los archivos se cifran en tu navegador antes de subirse. Guardamos datos cifrados que no podemos leer.",
+  "value.timelock": "Se abre en una fecha, por etapas anuales o cuando dejas de registrarte. Verificado con relojes independientes.",
+  "value.archive": "Almacenado en archivo profundo, pensado para seguir siendo legible durante décadas.",
+  "pricing.title": "Precios simples, en todo el mundo",
+  "plan.free": "Gratis",
+  "plan.premium": "Premium",
+  "plan.lifetime": "De por vida",
+  "plan.enterprise": "Empresa",
+  "price.month": "{price} / mes",
+  "price.year": "{price} / año",
+  "price.once": "{price} pago único",
+  "price.from": "Desde {price} / año",
+  "feat.free": "1 GB · cápsulas con fecha fija",
+  "feat.premium": "50 GB · todos los tipos de apertura · guardianes",
+  "feat.enterprise": "Marca blanca · SSO · exportación de auditoría · residencia de datos",
+  "promise.keep": "Si dejas de pagar, tus cápsulas selladas nunca se eliminan.",
+  "referral.title": "Invita a un amigo. Los dos reciben {gb} GB.",
+  "share.opensIn": "{count, plural, one {Se abre en # día} other {Se abre en # días}}",
+  "vault.count": "{count, plural, one {# cápsula} other {# cápsulas}}",
+  "offline.title": "Sin conexión",
+  "offline.body": "Tus cápsulas están seguras y cifradas. Vuelve a conectarte para sellar, abrir o registrarte.",
+  "error.generic": "Algo salió mal. Inténtalo de nuevo.",
+  "checkout.secure": "Pago seguro con métodos de pago locales",
+  "tax.note": "Los impuestos se calculan al pagar",
+  "nav.pricing": "Precios",
+  "nav.signin": "Iniciar sesión",
+};
+export default m;

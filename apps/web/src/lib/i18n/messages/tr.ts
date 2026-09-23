@@ -1,0 +1,36 @@
+// DRAFT translation: needs review by a native speaker before launch (legal and pricing copy especially).
+import type { Messages } from "./en.ts";
+
+const m: Messages = {
+  "hero.title": "Bugün mühürleyin. {year} yılında açın.",
+  "hero.sub": "Cihazınızda şifrelenir. Siz karar verince açılır. Nesiller boyu saklanır.",
+  "cta.start": "İlk kapsülünüzü oluşturun",
+  "cta.sales": "Satış ekibiyle görüşün",
+  "value.encrypted": "Dosyalar yüklenmeden önce tarayıcınızda şifrelenir. Okuyamadığımız şifreli veriyi saklarız.",
+  "value.timelock": "Belirli bir tarihte, yıllık aşamalarla veya yoklama bildirimleri kesildiğinde açılır. Bağımsız saatlerle doğrulanır.",
+  "value.archive": "Derin arşivde saklanır ve onlarca yıl okunabilir kalması için tasarlanmıştır.",
+  "pricing.title": "Dünya çapında basit fiyatlandırma",
+  "plan.free": "Ücretsiz",
+  "plan.premium": "Premium",
+  "plan.lifetime": "Ömür boyu",
+  "plan.enterprise": "Kurumsal",
+  "price.month": "{price} / ay",
+  "price.year": "{price} / yıl",
+  "price.once": "{price} tek seferlik",
+  "price.from": "Başlangıç: {price} / yıl",
+  "feat.free": "1 GB · sabit tarihli kapsüller",
+  "feat.premium": "50 GB · tüm açılış türleri · vasiler",
+  "feat.enterprise": "Beyaz etiket · SSO · denetim dışa aktarma · veri yerleşimi",
+  "promise.keep": "Ödemeyi bırakırsanız bile mühürlü kapsülleriniz asla silinmez.",
+  "referral.title": "Bir arkadaşınızı davet edin. İkiniz de {gb} GB kazanın.",
+  "share.opensIn": "{count, plural, one {# gün sonra açılır} other {# gün sonra açılır}}",
+  "vault.count": "{count, plural, one {# kapsül} other {# kapsül}}",
+  "offline.title": "Çevrimdışısınız",
+  "offline.body": "Kapsülleriniz güvende ve şifreli. Mühürlemek, açmak veya yoklama bildirmek için yeniden bağlanın.",
+  "error.generic": "Bir şeyler ters gitti. Lütfen tekrar deneyin.",
+  "checkout.secure": "Yerel ödeme yöntemleriyle güvenli ödeme",
+  "tax.note": "Vergiler ödeme sırasında hesaplanır",
+  "nav.pricing": "Fiyatlar",
+  "nav.signin": "Giriş yap",
+};
+export default m;

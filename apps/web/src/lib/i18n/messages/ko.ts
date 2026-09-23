@@ -1,0 +1,36 @@
+// DRAFT translation: needs review by a native speaker before launch (legal and pricing copy especially).
+import type { Messages } from "./en.ts";
+
+const m: Messages = {
+  "hero.title": "오늘 봉인하고, {year}년에 여세요.",
+  "hero.sub": "기기에서 암호화됩니다. 여는 시점은 당신이 정합니다. 세대를 넘어 보관됩니다.",
+  "cta.start": "첫 번째 캡슐 만들기",
+  "cta.sales": "영업팀 문의",
+  "value.encrypted": "파일은 업로드 전에 브라우저에서 암호화됩니다. 저희는 읽을 수 없는 암호화된 데이터만 보관합니다.",
+  "value.timelock": "정해진 날짜, 연 단위 단계, 또는 체크인이 끊겼을 때 열립니다. 독립된 시계로 검증됩니다.",
+  "value.archive": "딥 아카이브에 보관되며, 수십 년 동안 읽을 수 있도록 설계되었습니다.",
+  "pricing.title": "전 세계 어디서나 간단한 요금",
+  "plan.free": "무료",
+  "plan.premium": "프리미엄",
+  "plan.lifetime": "평생",
+  "plan.enterprise": "엔터프라이즈",
+  "price.month": "{price} / 월",
+  "price.year": "{price} / 년",
+  "price.once": "{price} 1회 결제",
+  "price.from": "{price} / 년부터",
+  "feat.free": "1 GB · 날짜 지정 캡슐",
+  "feat.premium": "50 GB · 모든 열기 방식 · 보호자",
+  "feat.enterprise": "화이트라벨 · SSO · 감사 내보내기 · 데이터 상주",
+  "promise.keep": "결제를 중단하더라도 봉인한 캡슐은 절대 삭제되지 않습니다.",
+  "referral.title": "친구를 초대하세요. 둘 다 {gb} GB를 받습니다.",
+  "share.opensIn": "{count, plural, other {# 일 후에 열립니다}}",
+  "vault.count": "{count, plural, other {캡슐 #개}}",
+  "offline.title": "오프라인 상태입니다",
+  "offline.body": "캡슐은 안전하게 암호화되어 있습니다. 봉인, 열기, 체크인을 하려면 다시 연결하세요.",
+  "error.generic": "문제가 발생했습니다. 다시 시도해 주세요.",
+  "checkout.secure": "현지 결제 수단을 지원하는 안전한 결제",
+  "tax.note": "세금은 결제 시 계산됩니다",
+  "nav.pricing": "요금",
+  "nav.signin": "로그인",
+};
+export default m;
