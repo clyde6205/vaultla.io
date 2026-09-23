@@ -1,0 +1,27 @@
+[project]
+name = "vaultla-api"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+  "fastapi>=0.115,<1",
+  "pydantic>=2.8,<3",
+  "uvicorn[standard]>=0.30",
+  "mangum>=0.17",
+  "psycopg[binary]>=3.2,<4",
+  "boto3>=1.35",
+  "PyJWT[crypto]>=2.9",
+  "stripe>=10",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "mypy>=1.11", "ruff>=0.6", "bandit>=1.7", "pip-audit>=2.7"]
+
+[tool.mypy]
+strict = true
+python_version = "3.12"
+
+[tool.ruff]
+line-length = 110
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
